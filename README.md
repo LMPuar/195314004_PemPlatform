@@ -1,2 +1,2 @@
 # 195314004_PemPlatform
-TUGAS 1 WEB
+TUGAS 2 WEB
