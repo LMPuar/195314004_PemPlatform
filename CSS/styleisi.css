@@ -1,0 +1,92 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+header {
+    background: #1a2238;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.luar{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.logo {
+    font-weight: bold;
+    display: flex;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 40px;
+    transition: all .4s ease 0s ;
+}
+.logo a{
+    transition: all .4s ease 0s ;
+    display: inline-block;
+}
+.logo a:hover {
+    color:#ff6a3d;
+    transform: rotate(-2deg);
+}
+.btn-cta {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: #ff6a3d;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    padding: 20px;
+}
+.li {
+    list-style-type: none;
+    padding: 10px;
+}
+.li a{
+    transition: all .4s ease 0s ;
+    display: inline-block;
+}
+.li a:hover {
+    color:#ff6a3d;
+    transform: rotate(2deg);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+p {
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 10%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.kotak {
+    width: 450px;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 37px;
+    margin-top: 70px;
+    margin-left: 50px;
+    float: left;
+}
+.fotoq {
+    width: 380px;
+    height: 130px;
+}
